@@ -79,7 +79,7 @@ h1{
 }
 
 div#container p{
-	font-family: "rockwell","Heimdal","DK lemon yellow sun","century gothic",sans-serif;	
+	font-family: rockwell,"Heimdal","DK lemon yellow sun","century gothic",sans-serif;	
 }
 
 div#footer_placeholder{
@@ -124,4 +124,9 @@ div#footer_placeholder:hover{
 @font-face{
 	font-family: coolvetica;
 	src: url("fonts/coolvetica rg.ttf");	
+}
+
+@font-face{
+	font-family: rockwell;
+	src: url("fonts/ROCC____.TTF"),url("fonts/ROCCB___.TTF"),url("fonts/ROCK.TTF"),url("fonts/ROCKB.TTF"),url("fonts/ROCKBI.TTF"),url("fonts/ROCKEB.TTF"),url("fonts/ROCKI.TTF");	
 }
