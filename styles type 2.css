@@ -128,5 +128,5 @@ div#footer_placeholder:hover{
 
 @font-face{
 	font-family: rockwell;
-	src: url("fonts/ROCC____.TTF"),url("fonts/ROCCB___.TTF"),url("fonts/ROCK.TTF"),url("fonts/ROCKB.TTF"),url("fonts/ROCKBI.TTF"),url("fonts/ROCKEB.TTF"),url("fonts/ROCKI.TTF");	
+	src: url("fonts/ROCK.TTF");	
 }
