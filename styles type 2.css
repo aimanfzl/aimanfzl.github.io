@@ -1,0 +1,127 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #F8F8F8;
+	font-family: "hun-din 1451", sans-serif;		
+}
+
+#sate{
+	color: #E712BC;
+	font-family: true_lies, sans-serif;
+	font-size: 54px;
+	text-align: center;	
+}
+
+#ultimate{
+	color: #E712BC;
+	/*font-family: "true lies", sans-serif;*/
+	font-family: true_lies, sans-serif;
+	font-weight: lighter;	
+	text-align: center;	
+}
+
+#bg_placeholder{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	position:relative;	
+	overflow:hidden;
+}
+
+#page_bg{
+	width:100%;
+	padding:0px;
+	opacity:0.04;
+	z-index:0;	
+
+}
+
+/*		#page_bg{
+	margin:0px;
+	padding:0px;	
+}*/
+
+div#top_bar{
+	width:100%;
+	height:150px;
+	margin: 0px 0px -150px 0px;
+	/*display: inline-block;*/
+	box-sizing:border-box;
+	background-color: white;
+}
+
+div#top_bar:hover{
+	background-color: black;
+}
+
+h1{
+	width: 150px;
+	overflow: visible;
+	padding: 24px 0px;	
+	box-sizing:border-box;	
+	margin:auto;
+	text-align:center;
+}
+
+#container{
+	width:1200px;
+/*	margin-left:auto;
+	margin-right:auto;*/
+	overflow:hidden;	
+	font-size:2em;
+	text-align:center;
+	z-index:1;
+	
+	position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%,0%);
+}
+
+div#container p{
+	font-family: "rockwell","Heimdal","DK lemon yellow sun","century gothic",sans-serif;	
+}
+
+div#footer_placeholder{
+	background-color: white;
+	clear:both;
+	width:100%;
+	position: relative;
+	z-index:1;
+	padding: 6px 0px;
+}
+
+div#footer_placeholder:hover{
+	/*background-color: #E712BC;*/
+	background-color:black;
+}
+
+#footer{
+	font-family: "coolvetica","Champagne & limousines",sans-serif;
+	text-align: center;	
+	clear:both;
+	width:100%;
+	color: #E712BC;
+	/*alignment-adjust: central;*/
+}
+
+@media(max-width:1200px)
+{
+	#container{
+		font-size:1.5em;	
+		width:100%;
+	}
+	#page_bg img{	
+		width:100%;
+	}
+}
+
+@font-face{
+	font-family: true_lies;
+	src: url("fonts/True Lies.ttf");	
+}
+
+@font-face{
+	font-family: coolvetica;
+	src: url("fonts/coolvetica rg.ttf");	
+}
